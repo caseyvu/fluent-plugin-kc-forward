@@ -33,4 +33,8 @@ class Fluent::KCForwardInput < Fluent::Plugin::ForwardInput
       end
     end
   end
+
+  def start
+    super
+  end
 end
